@@ -83,7 +83,18 @@ $(function(){
         nav:true,
         dots:false,
         navText:['<i class="fa fa-angle-left"></i>',
-                 '<i class="fa fa-angle-right"></i>']
+                 '<i class="fa fa-angle-right"></i>'],
+        responsive: {
+                    0:{
+                        items:2
+                    },
+                    480:{
+                        items:3
+                    },
+                    768:{
+                        items:6
+                    }
+                }
     });
 });
 
@@ -148,4 +159,19 @@ $(document).ready(function(){
     $('.list').click(function(){
         $(this).addClass('active').siblings().removeClass('active');
     });
+});
+
+/*=======================================================================
+                        mobile menue Section
+======================================================================*/
+
+$(function(){
+    //show mobile nav
+    $("#mobile-nav-open-btn").click(function(){        
+        $("#mobile-nav").css("height","100%");
+    });
+    //hide mobile nav
+    $("#mobile-nav-close-btn,#mobile-nav a").click(function(){        
+        $("#mobile-nav").css("height","0%");
+        });
 });

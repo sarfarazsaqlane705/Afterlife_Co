@@ -91,9 +91,10 @@ section{
         color: #f00d59;
 }
 .navbar-brand h4{
+        font-family: cursive;
         margin: 0;
-        padding: 0;
-        font-size: 1.5rem;
+        padding: 0 0 15px 0;
+        font-size: 1.3rem;
         color: #f00d59;
 }
 ul.navbar-nav > li > a{
@@ -274,7 +275,7 @@ ul.navbar-nav > li > a:focus{
         left: -53px;
 }
 #about-01{
-        background: url("../img/Private/Private1.jpg")
+        background: url("../img/Private/privateparty.jpg")
                         no-repeat fixed center;
         background-size: cover;                        
 }
@@ -311,7 +312,7 @@ ul.navbar-nav > li > a:focus{
 ======================================================================*/
 
 #about-02{
-        background: url("../img/Texture/Texture2.jpg");
+        background-color: #f0afc5d7;
 }
 
 .about-item{
@@ -366,7 +367,7 @@ ul.navbar-nav > li > a:focus{
 /*=======================================================================
                         Team Section part 01
 ======================================================================*/
-#team{
+/* #team{
         background: #fff;
 }
  #team-left .vertical-heading{
@@ -409,7 +410,7 @@ ul.navbar-nav > li > a:focus{
 }
 .team-member:hover .team-member-overlay{
         opacity: 1;
-}
+} */
 /*=======================================================================
                         Social contacts
 ======================================================================*/
@@ -459,54 +460,11 @@ ul.social-list li:nth-child(2) a:hover{
         padding: 5px;
 }
 
-
-
-/* Skills -------------------------------- */
-
-/* .skill{
-        margin-bottom: 20px;
-}
-.skill h4{
-        line-height: 62px;
-        margin: 0;
-        font-weight: normal;
-}
-
-.progress{
-        height: 22px;
-        border-radius: 0;
-        background: #efefef;
-        overflow: visible;
-}
-.progress-bar{
-        background: #f4c613;
-        position: relative;
-}
-.progress-bar span{
-        font-size: 11px;
-        font-weight: 100;
-        font-family: "Open Sans",sans-serif;
-        background: #212226;
-        padding: 3px;
-        position: absolute;
-        left: 97%;
-        top: -46px;
-}
-.progress-bar span:before{
-        content: " ";
-        border-top: 8px solid #212226;
-        border-left: 6px solid transparent;
-        border-right: 6px solid transparent;
-        position: absolute;
-        bottom: -8px;
-        left: 23%;
-} */
-
 /*=======================================================================
                         Statement Section 
 ======================================================================*/
 #statement{
-        background: url("../img/tech/tech-quote.jpg") no-repeat fixed center;
+        background: url("../img/tech/tech-quote\ \(2\).jpg") no-repeat fixed center;
         background-size: cover;
 }
 #statement .contnent-box-lg{
@@ -552,7 +510,9 @@ ul.social-list li:nth-child(2) a:hover{
         line-height: 45px;
         margin: 0;
 }
-
+#services{
+        background-color: #fff;
+}
 #services-top{
         margin: 0;
         padding: 0;
@@ -942,7 +902,7 @@ ul.social-list li:nth-child(2) a:hover{
                         Contact Section
 ======================================================================*/
 #contact{
-        background: url("../img/Contact/Contact1.jpg") 
+        background: url("../img/Contact/contact.jpg") 
                         no-repeat fixed center;
         background-size: cover;
 }
@@ -1078,5 +1038,4 @@ footer p span{
         border-color: #000;
         color: #f4c613;
 }
-
 

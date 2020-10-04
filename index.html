@@ -47,7 +47,10 @@
             <nav class="navbar navbar-fixed-top">
                 <div class="container-fluid">
                     <div class="site-nav-wrapper">
-                        <div class="navbar-header-brand">
+                        <div class="navbar-header">
+
+                            <!-- mobile menue open -->
+                            <span id="mobile-nav-open-btn">&#9776;</span>
                             <a href="#home" class="navbar-brand smooth-scroll">
                                 <h3><span>Afterlife</span><br>
                                 <h4>Events & Entertainment</h4></h3>
@@ -60,6 +63,22 @@
                                     <li><a class="smooth-scroll" href="#home">Home</a></li>
                                     <li><a class="smooth-scroll" href="#about">About</a></li>
                                     <!-- <li><a class="smooth-scroll" href="#team">Team</a></li> -->
+                                    <li><a class="smooth-scroll" href="#services">Services</a></li>
+                                    <li><a class="smooth-scroll" href="#portfolio">Gallery</a></li>
+                                    <li><a class="smooth-scroll" href="#blog">Blog</a></li>
+                                    <li><a class="smooth-scroll" href="#contact">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- mobile menue -->
+                        <div id="mobile-nav">
+                            <!-- mobile menue close -->
+                            <span id="mobile-nav-close-btn">&times;</span>
+
+                            <div id="mobile-nav-content">
+                                <ul class="nav">
+                                    <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                    <li><a class="smooth-scroll" href="#about">About</a></li>
                                     <li><a class="smooth-scroll" href="#services">Services</a></li>
                                     <li><a class="smooth-scroll" href="#portfolio">Gallery</a></li>
                                     <li><a class="smooth-scroll" href="#blog">Blog</a></li>
@@ -87,6 +106,7 @@
             <div id="home-content">
                 <div id="home-content-inner" class="text-center">
                     <div id="home-heading">
+                        <h6 id="heading-om" style="color: #f4c613; font-weight: 300; word-spacing: 2px;">| ॐ गंग गणपतये नमो नमः |</h6>
                         <h1 id="home-heading-1">Afterlife</h1>
                         <br>
                         <h1 id="home-heading-2">Events & <span>Entertainment</span></h1>
@@ -394,14 +414,14 @@
             <!-- card here -->
             <div id="card">
 
-                <div class="content-box-">
+                <div class="content-box-md">
 
                     <div class="container">
 
                         <div class="row">
                             <!-- first card -->
-                            <div class="col-md-3">
-                               <a href="#" target="_blank">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                               <a href="#">
                                     <div class="card text-center" style="width: 18rem;">
                                         <img class="card-img-top" src="img/mairrage/marriage4.jpg" alt="Wedding" title="Wedding" style="height: 30rem; width: 30rem;">
                                         <div class="card-body">
@@ -411,8 +431,8 @@
                                 </a>
                             </div>
                             <!-- Second card -->
-                            <div class="col-md-3 col-sm-6">
-                                <a href="#" target="_blank">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <a href="#">
                                      <div class="card" style="width: 18rem;">
                                          <img class="card-img-top" src="img/Corporate/corporate3.jpg" alt="Wedding" title="Wedding" style="height: 30rem; width: 30rem;">
                                          <div class="card-body">
@@ -422,8 +442,8 @@
                                  </a>
                              </div>
                              <!-- Third card -->
-                            <div class="col-md-3">
-                                <a href="#" target="_blank">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <a href="#">
                                      <div class="card" style="width: 18rem;">
                                          <img class="card-img-top" src="img/Private/birthdya.jpg" alt="Wedding" title="Wedding" style="height: 30rem; width: 30rem;">
                                          <div class="card-body">
@@ -433,8 +453,8 @@
                                  </a>
                              </div>
                               <!-- fourth card -->
-                            <div class="col-md-3">
-                                <a href="#" target="_blank">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <a href="#">
                                      <div class="card" style="width: 18rem;">
                                          <img class="card-img-top" src="img/Private/privateDj.jpg" alt="Wedding" title="Wedding" style="height: 30rem; width: 30rem;">
                                          <div class="card-body">
@@ -590,103 +610,88 @@
 
                             <div class="row no-gutters">
 
-                                <div id="isotope-container" style="margin: 3px;">
-                                    <div class="col-md-3 col-sm-6 col-xs-6 ">
+                                <div id="container" style="margin: 3px;">
+                                    <div class="col-md-3 col-sm-6 col-xs-12">
                                         <!-- portfolio item 01 -->
                                         <div class="portfolio-item">
-                                            <a href="img/mairrage/marriage2.jpg" title="Wedding">
-                                                <img src="img/mairrage/marriage2.jpg" class="img-responsive" alt="portfolio 01" style="height: 34.15rem;">
+                                                <img src="img/mairrage/bhangra.jpg" class="img-responsive" alt="portfolio 01" style="height: 34.15rem;">
                                                 <div class="portfolio-item-overlay">
                                                     <div class="portfolio-item-details text-center">                                                        
                                                     </div>
                                                 </div>
-                                            </a>
                                         </div>
 
                                     </div>
-                                    <div class="col-md-3 col-sm-6 col-xs-6 ">
+                                    <div class="col-md-3 col-sm-6 col-xs-12">
                                         <!-- portfolio-item 02 -->
                                         <div class="portfolio-item">
-                                            <a href="img/Corporate/corporate1.jpg" title="Corporate">
-                                                <img src="img/Corporate/corporate1.jpg" class="img-responsive" alt="portfolio 01" style="height: 34.15rem;">
+                                                <img src="img/Corporate/corporate2.jpg" class="img-responsive" alt="portfolio 01" style="height: 34.15rem;">
                                                 <div class="portfolio-item-overlay">
                                                     <div class="portfolio-item-details text-center">                                                        
                                                     </div>
                                                 </div>
-                                            </a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-sm-6 col-xs-12">
                                         <!-- portfolio-item 03 -->
                                         <div class="portfolio-item">
-                                            <a href="img/mairrage/marriage1.jpg" title="Engagement">
-                                                <img src="img/mairrage/marriage1.jpg" class="img-responsive" alt="portfolio 01" style="height: 34.3rem;">
+                                                <img src="img/mairrage/engagement.jpg" class="img-responsive" alt="portfolio 01" style="height: 34.3rem;">
                                                 <div class="portfolio-item-overlay">
                                                     <div class="portfolio-item-details text-center">                                                    
                                                     
                                                     </div>
                                                 </div>
-                                            </a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-sm-6 col-xs-12 ">
                                         <!-- portfolio-item 04 -->
                                         <div class="portfolio-item">
-                                            <a href="img/Private/Private3.jpg" title="Private Party">
-                                                <img src="img/Private/Private3.jpg" class="img-responsive" alt="portfolio 01" style="height: 34.3rem;">
+                                                <img src="img/Private/privateface.jpg" class="img-responsive" alt="portfolio 01" style="height: 34.3rem;">
                                                 <div class="portfolio-item-overlay">
                                                     <div class="portfolio-item-details text-center">                                                        
                                                     </div>
                                                 </div>
-                                            </a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-sm-6 col-xs-12 ">
                                         <!-- portfolio-item 05 -->
                                         <div class="portfolio-item">
-                                            <a href="img/Private/birthdya.jpg" title="Birthdya">
-                                                <img src="img/Private/birthdya.jpg" class="img-responsive" alt="portfolio 01" style="height: 34.5rem;width: 34.6rem;">
-                                                <div class="portfolio-item-overlay">
-                                                    <div class="portfolio-item-details text-center">                                                        
-                                                    </div>
+                                            <img src="img/Private/birthdya.jpg" class="img-responsive" alt="portfolio 01" style="height: 34.5rem;">
+                                            <div class="portfolio-item-overlay">
+                                                <div class="portfolio-item-details text-center">                                                        
                                                 </div>
-                                            </a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-sm-6 col-xs-12 ">
                                         <!-- portfolio-item 06 -->
                                         <div class="portfolio-item">
-                                            <a href="img/mairrage/wedding.jpg" title="Wedding">
                                                 <img src="img/mairrage/wedding.jpg" class="img-responsive" alt="portfolio 01" style="height:34.5rem;">
                                                 <div class="portfolio-item-overlay">
                                                     <div class="portfolio-item-details text-center">                                                        
                                                     </div>
                                                 </div>
-                                            </a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-sm-6 col-xs-12 ">
                                         <!-- portfolio-item 07 -->
                                         <div class="portfolio-item">
-                                            <a href="img/Corporate/corporate2.jpg" title="Corporate">
-                                                <img src="img/Corporate/corporate2.jpg" class="img-responsive" alt="portfolio 01" style="height:34.5rem;">
+                                                <img src="img/Corporate/corporate3.jpg" class="img-responsive" alt="portfolio 01" style="height:34.5rem;">
                                                 <div class="portfolio-item-overlay">
                                                     <div class="portfolio-item-details text-center">                                         
                                                     </div>
                                                 </div>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-sm-6 col-xs-12 ">
                                         <!-- portfolio-item 08-->
                                         <div class="portfolio-item">
-                                            <a href="img/Private/privateDj.jpg" title="Party">
                                                 <img src="img/Private/privateDj.jpg" class="img-responsive" alt="portfolio 01" style="height: 34.5rem;">
                                                 <div class="portfolio-item-overlay">
                                                     <div class="portfolio-item-details text-center">
                                                     </div>
                                                 </div>
-                                            </a>
                                         </div>
                                     </div>
 
@@ -698,7 +703,7 @@
 
                     </section>
                     <div id="submit-btn">
-                        <a class="btn btn-general btn-danger" href="gallery.html" title="View more" role="button" style="margin: 10px;">View more</a>
+                        <a class="btn btn-general btn-danger" href="#" title="View more" role="button" style="margin: 10px;">View more</a>
                     </div>
 
                 </div>
@@ -865,7 +870,7 @@
                                                 <div class="row">
 
                                                     <div class="col-md-6 col-sm-8 col-xs-5">
-                                                        <p><img src="img/blog/user-1.jpg" alt="author" class="img-circle"> Hulk Smasher</p>
+                                                        <p> Hulk Smasher</p>
                                                     </div>
                                                     <div class="col-md-6 col-sm-4 col-xs-7">
                                                         <p class="text-right">October 05,2019</p>
@@ -887,7 +892,7 @@
                                                 <div class="row">
 
                                                     <div class="col-md-6 col-sm-8 col-xs-5">
-                                                        <p><img src="img/blog/user-2.jpg" alt="author" class="img-circle"> Steve Rogers</p>
+                                                        <p> Steve Rogers</p>
                                                     </div>
                                                     <div class="col-md-6 col-sm-4 col-xs-7">
                                                         <p class="text-right">December 15,2019</p>
@@ -945,9 +950,9 @@
                                     </div>
 
                                     <ul class="social-list">
-                                        <li><a href="https://www.facebook.com/Afterlifeevents.co" target="_blank"><i class="fa  fa-facebook"></i></a></li>
-                                        <li><a href="https://www.instagram.com/afterlifeevents.co/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/afterlife-events/about/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="https://www.facebook.com/Afterlifeevents.co"><i class="fa  fa-facebook"></i></a></li>
+                                        <li><a href="https://www.instagram.com/afterlifeevents.co/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/company/afterlife-events/about/"><i class="fab fa-linkedin-in"></i></a></li>
                                     </ul>
 
                                 </div>
