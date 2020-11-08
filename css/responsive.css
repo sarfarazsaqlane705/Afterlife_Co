@@ -81,7 +81,7 @@ ul.nav>li.active>a{
 @media (min-width:1200px) and (max-width:1299px){
     
     .site-nav-wrapper{
-        padding: 0 20px;
+        padding: 0 10px;
     }
 
 }
@@ -99,7 +99,7 @@ ul.nav>li.active>a{
 
 /* Small Devices (Portrait Tablets & small Desktops)------------ */
 @media (min-width:768px) and (max-width:991px){
-
+    
     .site-nav-wrapper{
         padding: 0px;
     }
@@ -110,10 +110,15 @@ ul.nav>li.active>a{
     #home-text p{
         font-size: 13px;
     }
+    ul.navbar-nav > li >a{
+        padding: 15px 5px 0 25px;
+        font-size: 10px;
+    }
     .btn-general{
         padding: 8px 35px 8px 35px;
         font-size: 10px;
     }
+    
     .vertical-heading h2{
         font-size: 29px;
     }
@@ -146,11 +151,11 @@ ul.nav>li.active>a{
 
     .navbar-brand h3{
         padding: 0;
-        font-size: 30px;
+        font-size: 31px;
     }
     .navbar-brand h4{
         padding: 0;
-        font-size: 12px;
+        font-size: 11px;
     }
     .navbar{
         padding: 20px 0;
@@ -162,7 +167,9 @@ ul.nav>li.active>a{
     #mobile-nav-open-btn{
         display: block;
     }
-
+    ul.navbar-nav > li >a{
+        padding: 15px 5px 0 12px;
+    }
     #heading-om{
         font-size: 10px;
     }
@@ -177,6 +184,11 @@ ul.nav>li.active>a{
     }
     .btn-general{
         padding: 8px 25px 6px 25px;
+        font-size: 10px;
+    }
+    .button{
+        align-items: center;
+        padding: 5px 5px;        
         font-size: 10px;
     }
     /* About */
@@ -239,7 +251,19 @@ ul.nav>li.active>a{
     .horizontal-heading h2{
         font-size: 30px;
     }
-    #services-01 img{
+    .service-item{
+        /* padding: 5px; */
+        margin-bottom: 35px;
+    }
+    .service-item img{
+        width:100%;
+        padding: 1px;
+        font-size: 30px;
+    }
+    .about-item h3{
+        font-size: 18px;
+    }
+    #services-02 img{
         margin: 35px 0;
     }
     .service, .service .icon {
@@ -273,7 +297,7 @@ ul.nav>li.active>a{
     /* Blog */
     #blog-left{
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .blog-post{
         margin-bottom: 25px;
