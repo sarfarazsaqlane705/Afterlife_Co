@@ -469,6 +469,7 @@ ul.social-list li:nth-child(2) a:hover{
 #statement{
         background: url("../img/tech/tech-quote\ \(2\).jpg") no-repeat fixed center;
         background-size: cover;
+        
 }
 #statement .contnent-box-lg{
         background: rgba(0, 0 , 0 , 0.3);
@@ -648,7 +649,7 @@ ul.social-list li:nth-child(2) a:hover{
 #mantra .contnent-box-lg{
         background: rgba(0, 0 , 0 , 0.3);
 }
- .tech-statement{
+.tech-statement{
         color: #fff;
         font-size: 28px;
         line-height: 45px;
@@ -1316,6 +1317,17 @@ ul.personal-list li:nth-child(2) a:hover{
                         fixed center no-repeat;
         background-size: cover;
 }
+#about-next{
+        padding: 10px;
+        text-align: center;
+        color: rgb(156, 156, 156);
+}
+#about-center{
+        padding: 10px;
+        word-spacing: 1.5px;
+        align-items: center;
+        color: #9c9c9c;
+}
 
 
 
@@ -1342,7 +1354,7 @@ ul.personal-list li:nth-child(2) a:hover{
 
 #wedding-home{
         background: none;
-        height: 100%;
+        height: 100vh;
 }
 #wedding-home-img{
         position: fixed;
@@ -1361,6 +1373,33 @@ ul.personal-list li:nth-child(2) a:hover{
 #wedding-home{
         background: rgba(0, 0, 0, 0.822) ;
 } 
+#wedding-top .top-heading{
+        text-align: center;
+        color: #fff;
+        font-weight: bolder;
+}
+#wedding-top .top-heading h1,h3{
+        font-family: "Arizonia","Open-sans";
+        font-size: 5rem;
+}
+
+#wedding-para p{
+        color: #fff;
+        font-size: 1.25rem;
+        font-family: 'Courier New', Courier, monospace;
+}
+#wedding-system{
+        background: url("../img/mairrage/wedhall.jpg")
+                        no-repeat fixed center;
+        background-size: cover;
+}
+
+
+
+
+
+
+
 
 
 
@@ -1384,7 +1423,7 @@ ul.personal-list li:nth-child(2) a:hover{
 #corporate-home{
         background: none;
         height: 100%;
-        background: rgba(0, 0, 0, 0.753) ;
+        background: rgba(0, 0, 0, 0.753);
 }
 #corporate-home-img{
         position: fixed;
@@ -1401,9 +1440,20 @@ ul.personal-list li:nth-child(2) a:hover{
                         fixed center no-repeat;
         background-size: cover;
 }
-
-
-
+#corporate-top .corp-heading{
+        text-align: center;
+        color: #f5f3ec;
+}
+#corp-center{
+        color: #fff;
+        margin: 1.5rem;
+        text-align: center;
+}
+#corp-center p{
+        font-family: "Raleway","Open-sans";
+        word-spacing: 3px;
+        margin: 3px;
+}
 
 
 
@@ -1419,7 +1469,7 @@ ul.personal-list li:nth-child(2) a:hover{
                         
 
 
-                        COrporate PAGE STARTS HERE
+                        Private parties PAGE STARTS HERE
                         -Home for about page
 
 
@@ -1442,7 +1492,83 @@ ul.personal-list li:nth-child(2) a:hover{
         width: auto;
         height: auto;
         z-index: -1;
-        background: url("../img/Corporate/corporate2.jpg") 
+        background: url("../img/Private/privateparty2.jpg") 
                         fixed center no-repeat;
         background-size: cover;
+}
+#private-top .private-heading{
+        text-align: center;
+        color: #fff;
+        margin-top: 0;
+}
+#private-right{
+        text-align: center;
+        margin: 5px;
+        padding: 3px;
+}
+#private-right p{
+        color: #fff;
+        font-family: "Raleway",sans-serif;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+}
+
+
+/*=======================================================================
+                        
+
+
+                        Sub-services PAGE STARTS HERE
+                        -Home for about page
+
+
+                        
+========================================================================*/
+#sub-service{
+        margin: 0;
+        padding: 0;
+}
+#sub-services{
+        margin: 0;
+        padding: 0%;
+        width: 100%;
+        height: 100vh;
+        background: rgba(253, 147, 120, 0.5);
+}
+#new-service{
+        height: 50vh;
+        background: rgba(245, 99, 123, 0.6);
+}
+.sub-service-number{
+        margin: 10px 0;
+}
+
+.sub-service-number .number{
+        color: #fff;
+        font-size:25px;
+        margin: 0;
+        -webkit-transition: all 350ms linear;
+        transition: all 350ms linear;
+}
+
+.sub-service-number:hover .number{
+        color: #f4c613;
+        -webkit-transform: translateX(-20px);
+        transform: translateX(-20px);        
+}
+.service h5{
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #f5f3ec;
+        margin: 0 0 6px 0;
+}
+.service:hover h5{
+        color: #f0a314;
+}
+.service h4{
+        font-family: "Arizonia",sans-serif;
+        color: #f3f0eb;
+        font-size: 3rem;
+        font-weight: 300;
+        margin: 0 0 8px 0;
 }
