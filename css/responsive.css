@@ -99,6 +99,30 @@ ul.nav>li.active>a{
 
 /* Small Devices (Portrait Tablets & small Desktops)------------ */
 @media (min-width:768px) and (max-width:991px){
+
+    #newsheading{
+        padding: 5px 0;
+        margin-bottom: 5px;
+        font-size: 4rem;
+        transform: translateY(100px);
+    }
+    #news-heading-2{
+        padding: 0;
+        margin: 0;
+        font-size: 4rem;
+        transform: translateY(100px);
+
+    }
+    #popup p{
+        padding: 0;
+        margin: 0;
+        font-size: 2rem;
+        transform: translateY(100px);
+    }
+    .submit{
+        font-size: 2rem;
+        transform: translateY(200px);
+    }
     
     .site-nav-wrapper{
         padding: 0px;
@@ -149,6 +173,29 @@ ul.nav>li.active>a{
 /* Extra small Devices (Landscape phones & Portrait Tablets)------- */
 @media (max-width:767px){
 
+    #newsheading{
+        padding: 5px 0;
+        margin-bottom: 5px;
+        font-size: 3.5rem;
+        transform: translateY(140px);
+    }
+    #news-heading-2{
+        padding: 0;
+        margin: 0;
+        font-size: 3rem;
+        transform: translateY(140px);
+
+    }
+    #popup p{
+        padding: 0;
+        margin: 0;
+        font-size: 1.75rem;
+        transform: translateY(140px);
+    }
+    .submit{
+        font-size: 2rem;
+        transform: translateY(230px);
+    }
     .navbar-brand h3{
         padding: 0;
         font-size: 31px;
@@ -326,6 +373,27 @@ ul.nav>li.active>a{
 }
 
 @media (max-width:480px){
+
+    #newsheading{
+        padding: 0;
+        font-size: 2rem;
+        transform: translateY(100px);
+    }
+    #news-heading-2{
+        padding: 0;
+        font-size: 2rem;
+        transform: translateY(100px);
+    }
+    #popup p{
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+        transform: translateY(100px);
+    }
+    .submit{
+        font-size: 1.5rem;
+        transform: translateY(250px);
+    }
     .navbar-brand h3{
         padding: 0;
         font-size: 25px;
@@ -347,5 +415,28 @@ ul.nav>li.active>a{
     }
     .vertical-heading h2{
         font-size: 29px;
+    }
+}
+@media (max-width:360px){
+
+    #newsheading{
+        padding: 0;
+        font-size: 1.75rem;
+        transform: translateY(130px);
+    }
+    #news-heading-2{
+        padding: 0;
+        font-size: 1.75rem;
+        transform: translateY(140px);
+    }
+    #popup p{
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+        transform: translateY(150px);
+    }
+    .submit{
+        font-size: 1rem;
+        transform: translateY(230px);
     }
 }
