@@ -101,8 +101,8 @@ ul.nav>li.active>a{
 @media (min-width:768px) and (max-width:991px){
 
     #newsheading{
-        padding: 5px 0;
-        margin-bottom: 5px;
+        padding: 0;
+        margin-bottom: 0px;
         font-size: 4rem;
         transform: translateY(100px);
     }
@@ -167,7 +167,14 @@ ul.nav>li.active>a{
     ul.office-details li i{
         width: 20px;
     }
-
+    /* pricing */
+    .pricing-table .price h2{
+        margin: 0 0 0 6px;
+        font-size: 35px;
+    }
+    .pricing-table .price .month{
+        margin: -15%;
+    }
 }
 
 /* Extra small Devices (Landscape phones & Portrait Tablets)------- */
@@ -194,7 +201,7 @@ ul.nav>li.active>a{
     }
     .submit{
         font-size: 2rem;
-        transform: translateY(230px);
+        transform: translateY(200px);
     }
     .navbar-brand h3{
         padding: 0;
@@ -258,6 +265,19 @@ ul.nav>li.active>a{
         line-height: normal;
         margin: 0;
     }
+
+    /* pricing */
+    .pricing-table{
+        margin:0 0 20px 0;
+    }
+    .pricing-table .price h2{
+        margin: 0 0 0 6px;
+        font-size: 35px;
+    }
+    .pricing-table .price p{
+        margin: 5%;
+    }
+
     #about-left {
         margin-bottom: 50px;
     }
@@ -368,8 +388,51 @@ ul.nav>li.active>a{
     ul.social-list{
         margin-bottom: 40px;
     }
+}
+@media(max-width: 680px){
+    #newsheading{
+        padding: 0;
+        font-size: 2rem;
+        transform: translateY(50px);
+    }
+    #news-heading-2{
+        padding: 0;
+        font-size: 2rem;
+        transform: translateY(40px);
+    }
+    #popup p{
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+        transform: translateY(30px);
+    }
+    .submit{
+        font-size: .75rem;
+        transform: translateY(50px);
+    }
+}   
 
-
+@media(max-width: 580px){
+    #newsheading{
+        padding: 0;
+        font-size: 2rem;
+        transform: translateY(50px);
+    }
+    #news-heading-2{
+        padding: 0;
+        font-size: 2rem;
+        transform: translateY(40px);
+    }
+    #popup p{
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+        transform: translateY(30px);
+    }
+    .submit{
+        font-size: .75rem;
+        transform: translateY(40px);
+    }
 }
 
 @media (max-width:480px){
@@ -392,7 +455,7 @@ ul.nav>li.active>a{
     }
     .submit{
         font-size: 1.5rem;
-        transform: translateY(250px);
+        transform: translateY(230px);
     }
     .navbar-brand h3{
         padding: 0;
@@ -417,7 +480,8 @@ ul.nav>li.active>a{
         font-size: 29px;
     }
 }
-@media (max-width:360px){
+@media (max-width:360px)
+{
 
     #newsheading{
         padding: 0;
