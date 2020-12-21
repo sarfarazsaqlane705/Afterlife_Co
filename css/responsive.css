@@ -103,25 +103,25 @@ ul.nav>li.active>a{
     #newsheading{
         padding: 0;
         margin-bottom: 0px;
-        font-size: 4rem;
-        transform: translateY(100px);
+        font-size: 3rem;
+        transform: translateY(70px);
     }
     #news-heading-2{
         padding: 0;
         margin: 0;
-        font-size: 4rem;
-        transform: translateY(100px);
+        font-size: 3rem;
+        transform: translateY(70px);
 
     }
     #popup p{
         padding: 0;
         margin: 0;
-        font-size: 2rem;
-        transform: translateY(100px);
+        font-size: 1.90rem;
+        transform: translateY(70px);
     }
     .submit{
-        font-size: 2rem;
-        transform: translateY(200px);
+        font-size: 1.15rem;
+        transform: translateY(90px);
     }
     
     .site-nav-wrapper{
@@ -181,27 +181,27 @@ ul.nav>li.active>a{
 @media (max-width:767px){
 
     #newsheading{
-        padding: 5px 0;
-        margin-bottom: 5px;
+        padding:  0;
+        margin: 0;
         font-size: 3.5rem;
-        transform: translateY(140px);
+        transform: translateY(100px);
     }
     #news-heading-2{
         padding: 0;
         margin: 0;
         font-size: 3rem;
-        transform: translateY(140px);
+        transform: translateY(100px);
 
     }
     #popup p{
         padding: 0;
         margin: 0;
-        font-size: 1.75rem;
-        transform: translateY(140px);
+        font-size: 1.1rem;
+        transform: translateY(100px);
     }
     .submit{
-        font-size: 2rem;
-        transform: translateY(200px);
+        font-size: 1.25rem;
+        transform: translateY(100px);
     }
     .navbar-brand h3{
         padding: 0;
