@@ -76,7 +76,7 @@ section{
 #popup{
         width: 85%;
         height: 75%;
-        background: #fff;
+        background: url(../img/gradient/gradient.jpg);
         background-size: cover;
         position: absolute;
         top: 50%;
@@ -91,20 +91,24 @@ section{
         font-size: 5rem;
         font-weight: 400;
         color: #f4c613;
+        text-shadow: 1px 2px 4px #e0e0e0;
 }
 #news-heading-2{
-        transform: translateY(80px);
+        transform: translateY(60px);
         font-family: "Raleway",sans-serif;
         font-size: 5rem;
         font-weight: 400;
-        color: #504e4f;
+        color: #f4c613;
+        text-shadow: 1px 2px 4px #e0e0e0;
 }
 #popup p{
-        transform: translateY(80px);
+        transform: translateY(40px);
         font-family: "Raleway",sans-serif;
         font-size: 2rem;
         font-weight: 400;
-        color: #504e4f;
+        color: #f4c613;
+        word-spacing: 30px;
+        text-shadow: 1px 2px 3px #e0e0e0;
 }
 .submit{
         background-color: #f4c613;
@@ -112,6 +116,7 @@ section{
         border-radius: 10px;
         color: #fff;
         width: 10rem;
+        box-shadow: 1px 2px 5px #e0e0e0;
         padding: 1rem 2rem;
         transform: translateY(160px);
         font-family: "Raleway",sans-serif;
