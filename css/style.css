@@ -91,7 +91,7 @@ section{
         font-size: 5rem;
         font-weight: 400;
         color: #f4c613;
-        text-shadow: 1px 2px 4px #e0e0e0;
+        text-shadow: 1px 2px 2px #e0e0e0;
 }
 #news-heading-2{
         transform: translateY(60px);
@@ -99,7 +99,7 @@ section{
         font-size: 5rem;
         font-weight: 400;
         color: #f4c613;
-        text-shadow: 1px 2px 4px #e0e0e0;
+        text-shadow: 1px 2px 2px #e0e0e0;
 }
 #popup p{
         transform: translateY(40px);
@@ -210,7 +210,7 @@ ul.navbar-nav > li > a:focus{
         width: auto;
         height: auto;
         z-index: -1;
-        background: url("../video/solo.jpg") no-repeat;
+        background: url("../video/newdesign.jpg") no-repeat;
         background-size: cover;
 }
 
