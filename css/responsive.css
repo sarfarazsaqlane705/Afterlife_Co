@@ -570,15 +570,15 @@ ul.nav>li.active>a{
     }
     /* services page start  */
     #sub-services .service{
-        margin: 6px;
+        margin: 1px;
         padding: 2px;
     }
     #sub-services .service .icon,h4{
-        font-size: 1.95rem;
+        font-size: 1.75rem;
         padding: 2px;
     }
     #sub-services .service p{
-        font-size: 1.25rem;
+        font-size: 1.05rem;
     }
 }
 @media (max-width:360px)
