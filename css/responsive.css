@@ -574,11 +574,11 @@ ul.nav>li.active>a{
         padding: 2px;
     }
     #sub-services .service .icon,h4{
-        font-size: 1.75rem;
+        font-size: 1.25rem;
         padding: 2px;
     }
     #sub-services .service p{
-        font-size: 1.05rem;
+        font-size: 1rem;
     }
 }
 @media (max-width:360px)
