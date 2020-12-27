@@ -85,6 +85,7 @@ section{
         box-shadow: 1px 2px 5px 1px #fff;
         text-align: center;
 }
+
 #newsheading{
         transform: translateY(80px);
         font-family: "Raleway",sans-serif;
@@ -1722,10 +1723,7 @@ ul.personal-list li:nth-child(2) a:hover{
 #sub-service{
         margin: 0;
         padding: 0;
-}
-#new-service{
-        height: 50vh;
-        background: rgba(255, 64, 6, 0.836);
+        background: rgba(0, 0, 0, 0.74);
 }
 #services-top .horizontal-heading{
         margin-bottom: 20px;
