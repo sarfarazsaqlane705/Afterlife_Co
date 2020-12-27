@@ -87,7 +87,7 @@ ul.nav>li.active>a{
     .pricing-table .month{
         margin: -3px;
     }
-
+    
 }
 
 /* Medium Devices (Landscape Tablets & Medium Desktops)------ */
@@ -183,6 +183,9 @@ ul.nav>li.active>a{
     }
     .pricing-table .price .month{
         margin: -15%;
+    }
+    #about-next .about-heading h2{
+        font-size: 2.80rem;
     }
 }
 
@@ -308,6 +311,12 @@ ul.nav>li.active>a{
     .about-item h3{
         font-size: 18px;
     }
+    #about-next .about-heading h2{
+        font-size: 2.25rem;
+    }
+    #about-next .about-heading h5{
+        font-size: 1.25rem;
+    }
     /* Team section */
     #team-left .vertical-heading {
         min-height: 130px;
@@ -316,8 +325,8 @@ ul.nav>li.active>a{
         font-size: 14px;
         line-height: 35px;
     }
-    #tech-statement h3{
-        font-size: 20px;
+    .tech-statement h3{
+        font-size: 2.5rem;
         line-height: 30px;
     }
 
@@ -353,13 +362,6 @@ ul.nav>li.active>a{
     #portfolio{
         padding-bottom: 0px;
     }
-    /* #isotope-filters button{
-        padding-right: 15px;
-    }
-    /* Testimonial  */
-    /*#testimonials{
-        padding-top: 45px;
-    } */
     /* stats */
     .stats-item{
         margin-bottom: 20px;
@@ -398,6 +400,57 @@ ul.nav>li.active>a{
     ul.social-list{
         margin-bottom: 40px;
     }
+    #services-top .horizontal-heading h3{
+        font-size: 4rem;
+    }
+    #services-top .horizontal-heading h1{
+        font-size: 4.5rem;
+    }
+    /* about page */
+    #about-next .about-heading h2{
+        padding: 0;
+        margin: 0px;
+    }
+    /* wedding pages */
+    #wedding-top .top-heading h1{
+        padding: 0;
+        margin: 0;
+    }
+    #wedding-para{
+        padding: 10px;
+    }
+    /* corporate page */
+    #corporate-top .corp-heading h6,h1{
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 5px;
+        margin: 0;
+    }
+    /* private page */
+    #private-top .private-heading h2{
+        font-size: 2.95rem;
+        font-weight: bold;
+        padding: 5px;
+        margin: 0;
+    }
+    #private-top .private-heading h5{
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 5px;
+        margin: 0;
+    }
+    /* sub-services pagesite*/
+    #sub-services .service{
+        margin: 3px;
+        padding: 5px;
+    }
+    #sub-services .service .icon,h4{
+        font-size: 2rem;
+        padding: 3px;
+    }
+    #sub-services .service p{
+        font-size: 1.5rem;
+    }
 }
 @media(max-width: 680px){
     #newsheading{
@@ -422,6 +475,10 @@ ul.nav>li.active>a{
         font-size: .75rem;
         transform: translateY(50px);
     }
+    .tech-statement h3{
+        font-size: 2.20rem;
+    }
+
 }   
 
 @media(max-width: 580px){
@@ -491,6 +548,38 @@ ul.nav>li.active>a{
     .vertical-heading h2{
         font-size: 29px;
     }
+    .tech-statement h3{
+        font-size: 2rem;
+        line-height: 20px;
+    }
+    #services-top .horizontal-heading h3{
+        font-size: 3.25rem;
+    }
+    #services-top .horizontal-heading h1{
+        font-size: 3.95rem;
+    }
+    #about-next .about-heading h2{
+        padding: 0;
+        margin: 5px;
+    }
+    #about-next .about-heading h2{
+        font-size: 1.80rem;
+    }
+    #about-next .about-heading h5{
+        font-size: .95rem;
+    }
+    /* services page start  */
+    #sub-services .service{
+        margin: 6px;
+        padding: 2px;
+    }
+    #sub-services .service .icon,h4{
+        font-size: 1.95rem;
+        padding: 2px;
+    }
+    #sub-services .service p{
+        font-size: 1.25rem;
+    }
 }
 @media (max-width:360px)
 {
@@ -514,5 +603,18 @@ ul.nav>li.active>a{
     .submit{
         font-size: 1rem;
         transform: translateY(230px);
+    }
+    .tech-statement h3{
+        font-size: 1.5rem;
+        line-height: 22px;
+    }
+    #services-top .horizontal-heading h3{
+        font-size: 2.75rem;
+    }
+    #services-top .horizontal-heading h1{
+        font-size: 3.5rem;
+    }
+    #about-center p{
+        font-size: 1.05rem;
     }
 }

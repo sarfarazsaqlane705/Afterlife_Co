@@ -625,11 +625,14 @@ ul.social-list li:nth-child(2) a:hover{
 #statement .contnent-box-lg{
         background: rgba(0, 0 , 0 , 0.3);
 }
- .tech-statement{
+.tech-statement{
         color: #fff;
         font-size: 28px;
         line-height: 45px;
         padding: 55px;
+}
+.tech-statement h3{
+        font-size: 3rem;
 }
 .tech-statement p{
         font-size: 18px;
@@ -1595,6 +1598,10 @@ ul.personal-list li:nth-child(2) a:hover{
         text-align: center;
         color: #f5f3ec;
 }
+#corporate-top .corp-heading h6{
+        font-size: 3rem;
+        font-weight: bolder;
+}
 #corp-center{
         color: #fff;
         margin: 1.5rem;
@@ -1630,7 +1637,7 @@ ul.personal-list li:nth-child(2) a:hover{
 #private-home{
         background: none;
         height: 100%;
-        background: rgba(0, 0, 0, 0.753) ;
+        background: rgba(0, 0, 0, 0.8) ;
 }
 #private-home-img{
         position: fixed;
@@ -1652,6 +1659,14 @@ ul.personal-list li:nth-child(2) a:hover{
         color: #fff;
         margin-top: 0;
 }
+#private-top .private-heading h2{
+        font-size: 3.5rem;
+}
+#private-top .private-heading h5{
+        font-size: 2.5rem;
+        font-weight: bold;
+        line-height: 2px;
+}
 #private-right{
         text-align: center;
         margin: 5px;
@@ -1662,6 +1677,15 @@ ul.personal-list li:nth-child(2) a:hover{
         font-family: "Raleway",sans-serif;
         word-spacing: 3px;
         letter-spacing: 1px;
+}
+#private-new2{
+        background: url("../img/Private/concert.jpg")
+                        no-repeat fixed center;
+        background-size: cover;
+}
+#private-content a{
+        text-decoration: none;
+        color: #000;
 }
 
 
@@ -1675,51 +1699,55 @@ ul.personal-list li:nth-child(2) a:hover{
 
                         
 ========================================================================*/
+#new-hospitality{
+        background: none;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.753);
+}
+#sub-service-img{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        background: url("../img/mairrage/sweets.jpg") 
+                        fixed center no-repeat;
+        background-size: cover;
+}
 #sub-service{
         margin: 0;
         padding: 0;
 }
-#sub-services{
-        margin: 0;
-        padding: 0%;
-        width: 100%;
-        height: 100vh;
-        background: rgba(253, 147, 120, 0.5);
-}
 #new-service{
         height: 50vh;
-        background: rgba(245, 99, 123, 0.6);
+        background: rgba(255, 64, 6, 0.836);
 }
-.sub-service-number{
-        margin: 10px 0;
+#services-top .horizontal-heading{
+        margin-bottom: 20px;
+        padding: 8px;
 }
-
-.sub-service-number .number{
-        color: #fff;
-        font-size:25px;
-        margin: 0;
-        -webkit-transition: all 350ms linear;
-        transition: all 350ms linear;
+#sub-services .service{
+        margin: 2rem;
+        padding: 1.5rem;
 }
-
-.sub-service-number:hover .number{
+.service:hover .icon{
         color: #f4c613;
         -webkit-transform: translateX(-20px);
         transform: translateX(-20px);        
 }
-.service h5{
-        font-size: 12px;
-        text-transform: uppercase;
-        color: #f5f3ec;
-        margin: 0 0 6px 0;
-}
-.service:hover h5{
+
+.service:hover h4{
         color: #f0a314;
 }
 .service h4{
         font-family: "Arizonia",sans-serif;
         color: #f3f0eb;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 300;
         margin: 0 0 8px 0;
 }
