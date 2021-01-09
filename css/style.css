@@ -199,8 +199,10 @@ ul.navbar-nav > li > a:focus{
 #home{
         background: none;
         height: 100%;
+        width: 100%;
 }
-#home-bg-video{
+
+#home video{
         position: fixed;
         top: 50%;
         left: 50%;
@@ -211,18 +213,18 @@ ul.navbar-nav > li > a:focus{
         width: auto;
         height: auto;
         z-index: -1;
-        background: url("../video/newdesign.jpg") no-repeat;
+        background: url("../img/mairrage/wedcelebration.jpg") no-repeat;
         background-size: cover;
 }
 
 #home-overlay{
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.5);
         width: 100%;
         height: 100%;
         position: fixed;
         top: 0;
         left: 0;
-        z-index: -1;
+        z-index: -5;
 }
 
 #home-content{
@@ -743,7 +745,7 @@ ul.social-list li:nth-child(2) a:hover{
 /* second part of services---------------------------- */
 
 #services-02{
-        background: url("../img/mairrage/marriage4.jpg") 
+        background: url("../img/mairrage/pagri.jpg") 
                           no-repeat fixed center;
         background-size: cover;
 }
@@ -944,6 +946,10 @@ ul.social-list li:nth-child(2) a:hover{
 }
 
 /*----------------------------------submit button-------*/
+#gallery-btn{
+        margin-left: 42%;
+        align-items: center;
+}
 #gallery-btn .btn{
         align-items: center;
         background: #f4c613;
@@ -1638,7 +1644,7 @@ ul.personal-list li:nth-child(2) a:hover{
 #private-home{
         background: none;
         height: 100%;
-        background: rgba(0, 0, 0, 0.8) ;
+        background: rgba(0, 0, 0, 0.45) ;
 }
 #private-home-img{
         position: fixed;
@@ -1651,7 +1657,7 @@ ul.personal-list li:nth-child(2) a:hover{
         width: auto;
         height: auto;
         z-index: -1;
-        background: url("../img/Private/privateparty2.jpg") 
+        background: url("../img/Private/hukkah.jpg") 
                         fixed center no-repeat;
         background-size: cover;
 }
@@ -1748,4 +1754,240 @@ ul.personal-list li:nth-child(2) a:hover{
         font-size: 2.5rem;
         font-weight: 300;
         margin: 0 0 8px 0;
+}
+
+/*=======================================================================
+                        
+
+
+                        Sub-services PAGE STARTS HERE
+                        -Home for decoration page
+
+
+                        
+========================================================================*/
+
+#decorating-home{
+        background: none;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+}
+#deco-home-img{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        background: url("../img/mairrage/sweets.jpg") 
+                        fixed center no-repeat;
+        background-size: cover;
+}
+
+#deco-top .deco-heading{
+        text-align: center;
+        color: #fff;
+        margin-bottom: 20px;
+        padding: 8px;
+}
+#deco-top .deco-heading h1{
+        font-family: "Arizonia",sans-serif;
+        font-weight: bold;
+        font-size: 5rem;
+}
+#deco-top .deco-heading h1 hr{
+        height:4px;
+        width: 40rem;
+}
+#deco-right{
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        letter-spacing: 2px;
+}
+#deco-right p{
+        color: #fff;
+        font-family: "Open Sans",sans-serif;
+
+}
+
+/*=======================================================================
+                        
+
+
+                        Sub-services PAGE STARTS HERE
+                        -Home for Hospitality page
+
+
+                        
+========================================================================*/
+
+#hosp-home{
+        background: none;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+}
+#hosp-home-img{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        background: url("../img/mairrage/sweets.jpg") 
+                        fixed center no-repeat;
+        background-size: cover;
+}
+
+#hosp-top .hosp-heading{
+        text-align: center;
+        color: #fff;
+        margin-bottom: 20px;
+        padding: 8px;
+}
+#hosp-top .hosp-heading h1{
+        font-family: "Arizonia",sans-serif;
+        font-weight: bold;
+        font-size: 5rem;
+}
+#hosp-top .hosp-heading h1 hr{
+        height:4px;
+        width: 40rem;
+}
+#hosp-right{
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        letter-spacing: 2px;
+}
+#hosp-right p{
+        color: #fff;
+        font-family: "Open Sans",sans-serif;
+
+}
+
+/*=======================================================================
+                        
+
+
+                        Sub-services PAGE STARTS HERE
+                        -Home for Logistics page
+
+
+                        
+========================================================================*/
+
+#log-home{
+        background: none;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+}
+#log-home-img{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        background: url("../img/mairrage/sweets.jpg") 
+                        fixed center no-repeat;
+        background-size: cover;
+}
+
+#log-top .log-heading{
+        text-align: center;
+        color: #fff;
+        margin-bottom: 20px;
+        padding: 8px;
+}
+#log-top .log-heading h1{
+        font-family: "Arizonia",sans-serif;
+        font-weight: bold;
+        font-size: 5rem;
+}
+#log-top .log-heading h1 hr{
+        height:4px;
+        width: 40rem;
+}
+#log-right{
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        letter-spacing: 2px;
+}
+#log-right p{
+        color: #fff;
+        font-family: "Open Sans",sans-serif;
+
+}
+
+/*=======================================================================
+                        
+
+
+                        Sub-services PAGE STARTS HERE
+                        -Home for Photography page
+
+
+                        
+========================================================================*/
+
+#photo-video-home{
+        background: none;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+}
+#photo-video-home-img{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        background: url("../img/mairrage/sweets.jpg") 
+                        fixed center no-repeat;
+        background-size: cover;
+}
+
+#photo-video-top .photo-video-heading{
+        text-align: center;
+        color: #fff;
+        margin-bottom: 20px;
+        padding: 8px;
+}
+#photo-video-top .photo-video-heading h1{
+        font-family: "Arizonia",sans-serif;
+        font-weight: bold;
+        font-size: 5rem;
+}
+#photo-video-top .photo-video-heading h1 hr{
+        height:4px;
+        width: 40rem;
+}
+#photo-video-right{
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        letter-spacing: 2px;
+}
+#photo-video-right p{
+        color: #fff;
+        font-family: "Open Sans",sans-serif;
+
 }
