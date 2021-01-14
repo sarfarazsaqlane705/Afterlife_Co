@@ -104,6 +104,9 @@ ul.nav>li.active>a{
     .pricing-table .month{
         margin: -5px;
     }
+    #programe-top .programe-heading{
+        margin: 40% 5% 10% 65%;
+    }
 }
 
 /* Small Devices (Portrait Tablets & small Desktops)------------ */
@@ -186,6 +189,9 @@ ul.nav>li.active>a{
     }
     #about-next .about-heading h2{
         font-size: 2.80rem;
+    }
+    #programe-top .programe-heading{
+        margin: 50% 5% 10% 50%;
     }
 }
 
@@ -451,6 +457,32 @@ ul.nav>li.active>a{
     #sub-services .service p{
         font-size: 1.5rem;
     }
+    /*--------sub-pricing-----------basic card value------*/
+    #programe-top .programe-heading{
+        margin: 65% 5% 10% 50%;
+    }
+    #programe-top .programe-heading h1{
+        font-size: 1.5rem;
+    }
+    #basic-02 img{
+        height: 30rem;
+        margin-left: 5.5rem;
+    }
+    #basic-02 .basic .icon i{
+        font-size: 1.85rem;
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+    #basic-02 .basic h4{
+        font-size: 2.5rem;
+        padding-left: 2rem;
+        margin-left: 2rem;
+    }
+    #basic-02 .basic p{
+        font-size: 1.5rem;
+        padding-left:2rem; 
+        margin-left: 2rem;
+    }
 }
 @media(max-width: 680px){
     #newsheading{
@@ -501,6 +533,9 @@ ul.nav>li.active>a{
     .submit{
         font-size: .75rem;
         transform: translateY(40px);
+    }
+    #programe-top .programe-heading{
+        margin: 80% 5% 10% 40%;
     }
 }
 
@@ -616,5 +651,34 @@ ul.nav>li.active>a{
     }
     #about-center p{
         font-size: 1.05rem;
+    }
+    #programe-top{
+        margin: 0;
+        padding: 0;
+    }
+    #programe-top .programe-heading{
+        margin: 90% 30%;
+    }
+    #programe-top .programe-heading h1{
+        font-size: 1rem;
+    }
+    #basic-02 img{
+        height: 30rem;
+        margin-left: 5.5rem;
+    }
+    #basic-02 .basic .icon i{
+        font-size: 1.85rem;
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+    #basic-02 .basic h4{
+        font-size: 2.5rem;
+        padding-left: 2rem;
+        margin-left: 2rem;
+    }
+    #basic-02 .basic p{
+        font-size: 1.5rem;
+        padding-left:2rem; 
+        margin-left: 2rem;
     }
 }
