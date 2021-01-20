@@ -200,6 +200,7 @@ ul.navbar-nav > li > a:focus{
         background: none;
         height: 100%;
         width: 100%;
+        background-color: rgba(0, 0 , 0 , 0.3);
 }
  
 #home video{
@@ -218,7 +219,7 @@ ul.navbar-nav > li > a:focus{
 }
 
 #home-overlay{
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.7);
         width: 100%;
         height: 100%;
         position: fixed;
@@ -864,9 +865,7 @@ ul.social-list li:nth-child(2) a:hover{
         border-bottom: 3px solid #f4c613;
 }
 /* Zoom effect----------------------------------- */
-.portfolio-item {
-        margin: 3px;
-}
+
 .portfolio-item img{
         width: 100%;
         height: auto;
@@ -1279,20 +1278,23 @@ footer p span{
 /* back-button---------------- */
 .btn-back-to-top{
         position: fixed;
-        bottom: 20px;
-        right: 20px;
-        border-radius: 4px;
+        font-size: 2rem;
+        bottom: 3rem;
+        right: 5rem; 
+        padding: 1rem 1.5rem;
+        border-radius: 50%;
         display: none;
 }
 .btn-back-to-top{
-        background: #f4c613;
-        border-color: #f4c613;
+        background: #25D366;
+        border-color: #25D366;
+        color: #fff;
 }
 
 .btn-back-to-top:hover{
         background: #000;
         border-color: #000;
-        color: #f4c613;
+        color: #25D366;
 }
 /*=======================================================================
                       personal Social contacts
@@ -2029,11 +2031,16 @@ ul.personal-list li:nth-child(2) a:hover{
                         fixed center no-repeat;
         background-size: cover;
 }
+#programe-top{
+        top: 50%;
+        left: 50%;
+        transform: translate(70%,190%);
+}
 #programe-top .programe-heading{
-        position: absolute;
         text-align: left;
         color: #fff;
-        margin: 25% 10% 20% 68%;
+        /* margin: 25% 10% 20% 68%; */
+        margin: 5rem;
         padding: 12px;
         width: 25rem;
         border: 4px solid #fff;
@@ -2047,14 +2054,12 @@ ul.personal-list li:nth-child(2) a:hover{
         font-size: 2rem;
 }
 
-#basic-02{
+.basic-02{
         background: #fff;
+        text-align: center;
 }
 #basic-new-img{
-        border-radius: 50%;
-}
-.basic{
-        margin: 15px 0;
+        box-shadow: 8px 8px 8px rgba(0, 0 , 0 , 0.5);
 }
 
 .basic .icon{

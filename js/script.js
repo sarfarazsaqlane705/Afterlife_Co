@@ -35,6 +35,10 @@ $(function() {
     });
 });
 
+$('.form-group').click(function(){
+    $('.form-control').css('background','white')
+})
+
 // responsive tabs-------------------------------------------
 // $(function () {
 //     $('#services-tabs').responsiveTabs({

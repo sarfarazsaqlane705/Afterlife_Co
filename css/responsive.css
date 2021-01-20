@@ -104,8 +104,10 @@ ul.nav>li.active>a{
     .pricing-table .month{
         margin: -5px;
     }
-    #programe-top .programe-heading{
-        margin: 40% 5% 10% 65%;
+    #programe-top{
+        top: 50%;
+        left: 50%;
+        transform: translate(70%,200%);
     }
 }
 
@@ -190,8 +192,10 @@ ul.nav>li.active>a{
     #about-next .about-heading h2{
         font-size: 2.80rem;
     }
-    #programe-top .programe-heading{
-        margin: 50% 5% 10% 50%;
+    #programe-top {
+        top: 50%;
+        left: 50%;
+        transform: translate(60%,220%);
     }
 }
 
@@ -412,6 +416,10 @@ ul.nav>li.active>a{
     #services-top .horizontal-heading h1{
         font-size: 4.5rem;
     }
+    /*-------Whats App button------*/
+    .btn-back-to-top{
+        padding: 2px 1.15rem;
+    }
     /* about page */
     #about-next .about-heading h2{
         padding: 0;
@@ -458,30 +466,33 @@ ul.nav>li.active>a{
         font-size: 1.5rem;
     }
     /*--------sub-pricing-----------basic card value------*/
-    #programe-top .programe-heading{
-        margin: 65% 5% 10% 50%;
+    #programe-top {
+        top: 50%;
+        left: 50%;
+        transform: translate(40%,400%);
     }
     #programe-top .programe-heading h1{
         font-size: 1.5rem;
     }
-    #basic-02 img{
-        height: 30rem;
-        margin-left: 5.5rem;
-    }
-    #basic-02 .basic .icon i{
+    .basic .icon i{
         font-size: 1.85rem;
-        margin-left: 2rem;
-        padding-left: 2rem;
+        margin-left: 10px;
     }
-    #basic-02 .basic h4{
+    .basic{
+        margin: 0;
+        padding: 0%;
+    }
+    .basic h4{
         font-size: 2.5rem;
-        padding-left: 2rem;
-        margin-left: 2rem;
+        text-align: center;
+        margin: 2px;
+        padding: 2px;
     }
-    #basic-02 .basic p{
+    .basic p{
         font-size: 1.5rem;
-        padding-left:2rem; 
-        margin-left: 2rem;
+        margin: 0;
+        padding: 0;
+        text-align: center;
     }
 }
 @media(max-width: 680px){
@@ -534,8 +545,10 @@ ul.nav>li.active>a{
         font-size: .75rem;
         transform: translateY(40px);
     }
-    #programe-top .programe-heading{
-        margin: 80% 5% 10% 40%;
+    #programe-top{
+        top: 50%;
+        left: 50%;
+        transform: translate(33%,450%);
     }
 }
 
@@ -615,6 +628,22 @@ ul.nav>li.active>a{
     #sub-services .service p{
         font-size: 1rem;
     }
+    /*---basic program---*/
+    .icon{
+        font-size: .5rem;
+    }
+    .basic h4{
+        font-size: 2rem;
+    }
+    .basic p{
+        font-size: 1.15rem;
+    }
+    #programe-top{
+        width: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(18%,450%);
+    }
 }
 @media (max-width:360px)
 {
@@ -656,27 +685,32 @@ ul.nav>li.active>a{
         margin: 0;
         padding: 0;
     }
-    #programe-top .programe-heading{
-        margin: 90% 30%;
+    #programe-top{
+        width: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(10%,500%);
     }
     #programe-top .programe-heading h1{
-        font-size: 1rem;
+        font-size: 1.45rem;
+        margin: 0;
+        padding: 0;
     }
-    #basic-02 img{
+    .basic-02 img{
         height: 30rem;
         margin-left: 5.5rem;
     }
-    #basic-02 .basic .icon i{
+    .basic .icon i{
         font-size: 1.85rem;
         margin-left: 2rem;
         padding-left: 2rem;
     }
-    #basic-02 .basic h4{
+    .basic h4{
         font-size: 2.5rem;
         padding-left: 2rem;
         margin-left: 2rem;
     }
-    #basic-02 .basic p{
+    .basic p{
         font-size: 1.5rem;
         padding-left:2rem; 
         margin-left: 2rem;
